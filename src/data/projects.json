@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "title": "E-commerce Platform",
+    "category": "fullstack",
+    "image": "/projects/ecommerce.png",
+    "tech": ["React", "Node.js", "MongoDB", "Tailwind CSS"],
+    "description": "A full-featured e-commerce store with cart and checkout.",
+    "longDescription": "This project is a comprehensive e-commerce solution featuring a responsive product grid, integrated shopping cart, secure user authentication, and a streamlined checkout process. Built with the MERN stack.",
+    "liveUrl": "https://example.com/live",
+    "githubUrl": "https://github.com/example/repo"
+  },
+  {
+    "id": 2,
+    "title": "Health & Fitness Tracker",
+    "category": "frontend",
+    "image": "/projects/fitness.png",
+    "tech": ["React", "Chart.js", "Tailwind CSS"],
+    "description": "A sleek dashboard to track workouts and nutrition.",
+    "longDescription": "A dynamic frontend application for tracking fitness goals, visualizing progress with interactive charts, and managing daily nutrition. Built with React and optimized for performance.",
+    "liveUrl": "https://example.com/fitness",
+    "githubUrl": "https://github.com/example/fitness-repo"
+  },
+  {
+    "id": 3,
+    "title": "Social Media Dashboard",
+    "category": "small",
+    "image": "/projects/social.png",
+    "tech": ["React", "Vite", "Tailwind CSS"],
+    "description": "A minimalist dashboard for social media management.",
+    "longDescription": "A clean and efficient social media management dashboard. It allows users to view analytics, schedule posts, and manage multiple accounts from a single, intuitive interface.",
+    "liveUrl": "https://example.com/social",
+    "githubUrl": "https://github.com/example/social-repo"
+  }
+]
