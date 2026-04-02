@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-16 mb-20">
           <div className="md:col-span-2 text-white">
             <div className="flex items-center mb-8 group cursor-pointer" onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}>
-              <img src="/public/projects/logo.png" alt="HJ Hussain Logo" className="h-12 w-auto brightness-0 invert group-hover:scale-110 transition-all opacity-80 group-hover:opacity-100" />
+              <img src="/projects/logo.png" alt="HJ Hussain Logo" className="h-12 w-auto brightness-0 invert group-hover:scale-110 transition-all opacity-80 group-hover:opacity-100" />
             </div>
             <p className="text-gray-400 max-w-sm mb-10 leading-relaxed font-medium">
               A forward-thinking Full Stack Developer dedicated to creating seamless digital experiences that inspire and perform.

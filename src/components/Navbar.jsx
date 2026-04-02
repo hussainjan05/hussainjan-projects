@@ -28,7 +28,7 @@ const Navbar = ({ activeCategory, setActiveCategory, scrollToHireMe, scrollToPro
           onClick={() => setActiveCategory('all')}
           className="mr-12 cursor-pointer flex items-center group relative"
         >
-          <img src="/public/projects/logo.png" alt="HJ Hussain" className="h-14 w-auto filter grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-105" />
+          <img src="/projects/logo.png" alt="HJ Hussain" className="h-14 w-auto filter grayscale group-hover:grayscale-0 transition-all duration-700 hover:scale-105" />
           <div className="absolute -bottom-2 left-0 w-0 h-[2px] bg-primary group-hover:w-full transition-all duration-500"></div>
         </div>
 
