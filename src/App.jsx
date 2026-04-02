@@ -59,7 +59,6 @@ function App() {
         scrollToHireMe={scrollToHireMe}
         scrollToProjects={scrollToProjects}
       />
-    <br />
       
       <main>
         <AnimatePresence mode="wait">

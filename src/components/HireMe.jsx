@@ -35,15 +35,17 @@ const HireMe = ({ innerRef }) => {
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-          <div
-            onClick={() => window.open('')}
-            className="cursor-pointer group w-full p-12 bg-white border border-gray-100 text-black hover:border-black transition-all duration-700 flex justify-between items-center"
+          <a
+            href="https://www.linkedin.com/in/hussainjan"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group w-full p-12 bg-white border border-gray-100 text-black hover:border-black transition-all duration-700 flex justify-between items-center"
           >
-            <span className="text-4xl font-black uppercase tracking-tighter">Connect via Linkedln</span>
+            <span className="text-4xl font-black uppercase tracking-tighter">Connect via LinkedIn</span>
             <svg className="w-12 h-12 transition-transform group-hover:translate-x-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2.5" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
-          </div>
+          </a>
         </div>
       </div>
     </section>
