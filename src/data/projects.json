@@ -1,35 +1,134 @@
 [
   {
     "id": 1,
-    "title": "E-commerce Platform",
+    "title": "ZenStore",
     "category": "fullstack",
-    "image": "/projects/ecommerce.png",
-    "tech": ["React", "Node.js", "MongoDB", "Tailwind CSS"],
-    "description": "A full-featured e-commerce store with cart and checkout.",
-    "longDescription": "This project is a comprehensive e-commerce solution featuring a responsive product grid, integrated shopping cart, secure user authentication, and a streamlined checkout process. Built with the MERN stack.",
-    "liveUrl": "https://example.com/live",
-    "githubUrl": "https://github.com/example/repo"
+    "image": "/projects/zen-store.png",
+    "tech": ["MERN", "Stripe", "OTP Auth", "Vercel"],
+    "description": "High-performance MERN e-commerce platform with OTP and Stripe.",
+    "longDescription": "A sophisticated e-commerce solution featuring secure OTP authentication via Nodemailer, real-time analytics, and a seamless Stripe payment integration for a professional shopping experience.",
+    "liveUrl": "https://zen-store-kappa.vercel.app",
+    "githubUrl": "https://github.com/hussainjan05/zen-store"
   },
   {
     "id": 2,
-    "title": "Health & Fitness Tracker",
-    "category": "frontend",
+    "title": "MERN Data System",
+    "category": "fullstack",
     "image": "/projects/fitness.png",
-    "tech": ["React", "Chart.js", "Tailwind CSS"],
-    "description": "A sleek dashboard to track workouts and nutrition.",
-    "longDescription": "A dynamic frontend application for tracking fitness goals, visualizing progress with interactive charts, and managing daily nutrition. Built with React and optimized for performance.",
-    "liveUrl": "https://example.com/fitness",
-    "githubUrl": "https://github.com/example/fitness-repo"
+    "tech": ["React", "Node.js", "Express", "MongoDB"],
+    "description": "Robust full-stack app for local and cloud data management.",
+    "longDescription": "A data-driven application focused on efficient CRUD operations and secure storage using MongoDB, designed for scalable business logic and clean API architecture.",
+    "liveUrl": "https://full-stack-rose-beta.vercel.app",
+    "githubUrl": "https://github.com/hussainjan05/full-stack"
   },
   {
     "id": 3,
-    "title": "Social Media Dashboard",
+    "title": "Interactive Gallery",
+    "category": "frontend",
+    "image": "/projects/social.png",
+    "tech": ["React", "GSAP", "Tailwind CSS"],
+    "description": "Visually stunning image gallery with smooth GSAP animations.",
+    "longDescription": "A high-end visual experience featuring liquid-style transitions, staggered GSAP animations, and a fully responsive grid layout for professional photography showcases.",
+    "liveUrl": "https://gallery-app-react-seven.vercel.app/",
+    "githubUrl": "https://github.com/hussainjan05/Gallery-app-react"
+  },
+  {
+    "id": 4,
+    "title": "Health Management Dashboard",
+    "category": "fullstack",
+    "image": "/projects/fitness.png",
+    "tech": ["React", "Node.js", "Express", "MongoDB"],
+    "description": "Comprehensive Hospital Management System (HMS).",
+    "longDescription": "A specialized management tool for healthcare providers to organize patients, appointments, and medical records with a focus on intuitive user interface and data integrity.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/hms-react"
+  },
+  {
+    "id": 5,
+    "title": "GSAP Animation Showcase",
+    "category": "frontend",
+    "image": "/projects/social.png",
+    "tech": ["GSAP", "JavaScript", "ScrollTrigger"],
+    "description": "A collection of high-end scroll and micro-animations.",
+    "longDescription": "Experimentation with advanced animation timelines, scroll-triggered movements, and interactive cursor effects to create immersive web environments using the GSAP library.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/animation-gsap"
+  },
+  {
+    "id": 6,
+    "title": "Editorial Portfolio",
+    "category": "frontend",
+    "image": "/projects/logo.png",
+    "tech": ["React", "Framer Motion", "Tailwind CSS"],
+    "description": "High-impact editorial-style personal brand site.",
+    "longDescription": "This very portfolio! Designed with an editorial, architectural aesthetic. It uses Framer Motion for complex animations and a modular React architecture to deliver a high-end personal brand experience.",
+    "liveUrl": "https://hussainjan-projects.vercel.app",
+    "githubUrl": "https://github.com/hussainjan05/Portfolio"
+  },
+  {
+    "id": 7,
+    "title": "Dairy Farm logistics",
+    "category": "fullstack",
+    "image": "/projects/fitness.png",
+    "tech": ["HTML", "CSS", "JS", "Backend Logic"],
+    "description": "Specialized tool for farm operations and logistics.",
+    "longDescription": "Dedicated application for tracking dairy production, livestock health, and logistical data to streamline farm management workflows with a focus on operational efficiency.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/dairy-farm"
+  },
+  {
+    "id": 8,
+    "title": "Modern Shopping UI",
+    "category": "frontend",
+    "image": "/projects/zen-store.png",
+    "tech": ["HTML5", "CSS3", "JavaScript"],
+    "description": "Sleek frontend for retail and digital storefronts.",
+    "longDescription": "A pixel-perfect e-commerce frontend focused on high conversion rates, responsive product grids, and an intuitive user journey through clean design.",
+    "liveUrl": "https://hussainjan-e-commerce-web.netlify.app/",
+    "githubUrl": "https://github.com/hussainjan05/E-commerce-web"
+  },
+  {
+    "id": 9,
+    "title": "Quiz Master Pro",
     "category": "small",
     "image": "/projects/social.png",
-    "tech": ["React", "Vite", "Tailwind CSS"],
-    "description": "A minimalist dashboard for social media management.",
-    "longDescription": "A clean and efficient social media management dashboard. It allows users to view analytics, schedule posts, and manage multiple accounts from a single, intuitive interface.",
-    "liveUrl": "https://example.com/social",
-    "githubUrl": "https://github.com/example/social-repo"
+    "tech": ["JavaScript", "Logic", "DOM"],
+    "description": "Interactive quiz application with logic-based scoring.",
+    "longDescription": "A smooth educational tool that handles dynamic questions, timer logic, and detailed result analytics for users. Built with native JavaScript for maximum performance.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/Quiz-app"
+  },
+  {
+    "id": 10,
+    "title": "Precision Stopwatch",
+    "category": "small",
+    "image": "/projects/logo.png",
+    "tech": ["Vanilla JS", "CSS3"],
+    "description": "Sleek time management tool with lap features.",
+    "longDescription": "A minimalist and accurate digital stopwatch built with clean Vanilla JavaScript logic and a high-contrast dark mode design for professional time tracking.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/stopwatch"
+  },
+  {
+    "id": 11,
+    "title": "Utility Suite",
+    "category": "small",
+    "image": "/projects/fitness.png",
+    "tech": ["TypeScript", "Math JS"],
+    "description": "Bundle of precision tools (BMI, Age, Currency).",
+    "longDescription": "A collection of utility tools including BMI calculators, age trackers, and currency converters, optimized for accuracy and performance using TypeScript.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/Calculator"
+  },
+  {
+    "id": 12,
+    "title": "Logic Assignments",
+    "category": "small",
+    "image": "/projects/social.png",
+    "tech": ["JavaScript", "Data Structures"],
+    "description": "Exhaustive collection of JS logic and problem solving.",
+    "longDescription": "A repository containing multiple high-level assignments covering array methods, DOM manipulation, asynchronous patterns, and algorithmic challenges.",
+    "liveUrl": "#",
+    "githubUrl": "https://github.com/hussainjan05/JS-Assignment-8"
   }
 ]
