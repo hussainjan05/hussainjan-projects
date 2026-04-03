@@ -14,25 +14,30 @@ function App() {
   const [filteredProjects, setFilteredProjects] = useState([]);
   const [activeCategory, setActiveCategory] = useState('all');
   const [selectedProject, setSelectedProject] = useState(null);
+  const [showAllProjects, setShowAllProjects] = useState(false);
   const hireMeRef = useRef(null);
   const projectsRef = useRef(null);
 
   useEffect(() => {
     setProjects(projectsData);
-    setFilteredProjects(projectsData);
   }, []);
 
   useEffect(() => {
-    if (activeCategory === 'all') {
-      setFilteredProjects(projects);
-    } else {
-      setFilteredProjects(projects.filter(p => p.category === activeCategory));
+    let result = projects;
+    
+    if (activeCategory !== 'all') {
+      result = projects.filter(p => p.category === activeCategory);
+    } else if (!showAllProjects) {
+      result = projects.slice(0, 6);
     }
-    // Scroll to top when category changes
+    
+    setFilteredProjects(result);
+
+    // Scroll to top when category changes (but not when clicking Explore)
     if (activeCategory !== 'all') {
       window.scrollTo({ top: 0, behavior: 'smooth' });
     }
-  }, [activeCategory, projects]);
+  }, [activeCategory, projects, showAllProjects]);
 
   const scrollToProjects = () => {
     projectsRef.current?.scrollIntoView({ behavior: 'smooth' });
@@ -105,6 +110,18 @@ function App() {
                   projects={filteredProjects} 
                   onProjectClick={setSelectedProject} 
                 />
+
+                {activeCategory === 'all' && !showAllProjects && projects.length > 6 && (
+                  <div className="mt-24 flex justify-center">
+                    <button
+                      onClick={() => setShowAllProjects(true)}
+                      className="group flex items-center gap-6 py-8 px-12 border border-gray-100 hover:border-black transition-all duration-500"
+                    >
+                      <span className="text-xs font-black uppercase tracking-widest">Explore All Work</span>
+                      <div className="w-12 h-[1px] bg-gray-200 group-hover:w-20 group-hover:bg-black transition-all duration-500"></div>
+                    </button>
+                  </div>
+                )}
               </section>
             </motion.div>
           ) : (
