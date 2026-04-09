@@ -11,9 +11,9 @@
     "githubUrl": "https://github.com/hussainjan05/zen-store"
   },
   {
-    "id": 2,
-    "title": "MERN Data System",
-    "category": "fullstack",
+    "id": 2, 
+    "title": "Portfolio",
+    "category": "frontend",
     "image": "/projects/fitness.png",
     "tech": ["React", "Node.js", "Express", "MongoDB"],
     "description": "Robust full-stack app for local and cloud data management.",
@@ -117,7 +117,7 @@
     "tech": ["TypeScript", "Math JS"],
     "description": "Bundle of precision tools (BMI, Age, Currency).",
     "longDescription": "A collection of utility tools including BMI calculators, age trackers, and currency converters, optimized for accuracy and performance using TypeScript.",
-    "liveUrl": "#",
+    "liveUrl": "",
     "githubUrl": "https://github.com/hussainjan05/Calculator"
   },
   {
