@@ -15,7 +15,7 @@
     "title": "Portfolio",
     "category": "frontend",
     "image": "/projects/fitness.png",
-    "tech": ["React", "SCSS", "Tailwind CSS", "EMAILJS","Vercel"],
+    "tech": ["React", "SCSS",  "EMAILJS","Vercel"],
     "description": "Robust full-stack app for local and cloud data management.",
     "longDescription": "A data-driven application focused on efficient CRUD operations and secure storage using MongoDB, designed for scalable business logic and clean API architecture.",
     "liveUrl": "https://hussainjan-protfolio.vercel.app",
