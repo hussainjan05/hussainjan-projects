@@ -10,7 +10,7 @@
     "liveUrl": "https://zen-store-kappa.vercel.app",
     "githubUrl": "https://github.com/hussainjan05/zen-store"
   },
-  {{
+  {
   "id": 2,
   "title": "Portfolio",
   "category": "frontend",
@@ -21,7 +21,7 @@
   "liveUrl": "https://hussainjan-protfolio.vercel.app",
   "githubUrl": "https://github.com/hussainjan05/hussainjan-portfolio"
 }
-  },
+,
   {
     "id": 3,
     "title": "Interactive Gallery",
