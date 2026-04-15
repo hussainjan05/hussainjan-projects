@@ -27,7 +27,7 @@
     "title": "Interactive Gallery",
     "category": "frontend",
     "image": "/projects/social.png",
-    "tech": ["React", "GSAP", "Tailwind "],
+    "tech": ["React", "GSAP", "Tailwind CSS"],
     "description": "Visually stunning image gallery with smooth GSAP animations.",
     "longDescription": "A high-end visual experience featuring liquid-style transitions, staggered GSAP animations, and a fully responsive grid layout for professional photography showcases.",
     "liveUrl": "https://gallery-app-react-seven.vercel.app/",
