@@ -18,8 +18,8 @@
   "tech": ["React", "SCSS", "GSAP", "Tailwind CSS", "EMAILJS", "Vercel"],
   "description": "Modern, animated personal portfolio website with contact functionality.",
   "longDescription": "A fully responsive portfolio website built with React and Tailwind CSS, featuring smooth GSAP animations, SCSS styling, and EmailJS integration for direct messaging. Deployed on Vercel for fast performance.",
-  "liveUrl": "https://hussainjan-protfolio.vercel.app",
-  "githubUrl": "https://github.com/hussainjan05/hussainjan-portfolio"
+  "liveUrl": "https://hussainjan-portfolio.vercel.app/",
+  "githubUrl": "https://github.com/hussainjan05/hussain-portfolio.git"
 }
 ,
   {
