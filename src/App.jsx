@@ -64,7 +64,7 @@ function App() {
         scrollToHireMe={scrollToHireMe}
         scrollToProjects={scrollToProjects}
       />
-      
+      <br></br>
       <main>
         <AnimatePresence mode="wait">
           {activeCategory === 'all' ? (
