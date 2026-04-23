@@ -24,7 +24,7 @@
 ,
   {
     "id": 3,
-    "title": "Interactive Gallery",
+    "title": "Interactive Galler", 
     "category": "frontend",
     "image": "/projects/social.png",
     "tech": ["React", "GSAP", "Tailwind CSS"],
